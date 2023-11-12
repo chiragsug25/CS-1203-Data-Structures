@@ -1,0 +1,2 @@
+Yes, Dijkstra's algorithm works for directed graphs as well. The implementation in Dijkstra.c is applicable to directed graphs. 
+One need to ensure that the input graph matrix (graph[V][V]) represents the correct weights for directed edges.
