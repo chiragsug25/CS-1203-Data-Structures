@@ -1,0 +1,8 @@
+The time complexity of the provided implementation is O(n^2), where n is the number of vertices.
+If one wants to improve the time complexity, one can do so using a priority queue (min-heap) to efficiently select the vertex with the minimum distance during each iteration.
+
+Here's a brief outline:
+
+Instead of the minDistance function, use a priority queue to extract the vertex with the minimum distance efficiently.
+The time complexity with a priority queue becomes O((n + E) * log(n)), where E is the number of edges.
+One can use a data structure like a binary heap or Fibonacci heap for the priority queue. Libraries such as std::priority_queue
