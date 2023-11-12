@@ -98,4 +98,4 @@ int main() {
     return 0;
 }
 
-// The auxiliary space complexity of the program is O(V^2), where V is the number of vertices in the graph. 
+// The auxiliary space complexity of the program is O(n^2), where n is the number of vertices in the graph. 
